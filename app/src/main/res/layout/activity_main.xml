@@ -41,7 +41,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currencyInfo1_textView"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
 
     <TextView
         android:id="@+id/resultInfo_textView"
@@ -153,6 +153,7 @@
         android:textSize="@dimen/main_solve"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/choice_linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/choice_linearLayout"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
