@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     private val timer = Timer()
     private val usd = 4813.4f
     private val eur = 5181.47f
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
