@@ -20,7 +20,10 @@
     <color name="main_currency_bground">#FFFF77</color>
     <color name="main_currency_info_bground">@color/PapayaWhip</color>
     <color name="main_result_info_bground">@color/Gainsboro</color>
-    <color name="main_solve_bground">@color/DarkMagenta</color>
+    <color name="main_solve_bground">@color/Chocolate</color>
     <!--HINT-->
     <color name="main_currency_hint">@color/Gray</color>
+
+    <color name="splash_image_bground">@color/BurlyWood</color>
+    <color name="splash_bground">@color/BurlyWood</color>
 </resources>

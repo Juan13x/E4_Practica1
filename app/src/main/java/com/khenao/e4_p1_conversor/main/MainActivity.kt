@@ -1,8 +1,9 @@
-package com.khenao.e4_p1_conversor
+package com.khenao.e4_p1_conversor.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
+import com.khenao.e4_p1_conversor.R
 import com.khenao.e4_p1_conversor.databinding.ActivityMainBinding
 import java.util.*
 import kotlin.concurrent.timerTask
